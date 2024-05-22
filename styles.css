@@ -1,0 +1,73 @@
+header {
+  text-align: center;
+  color:White;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+button:active {
+    font-size: 18px;
+    color: yellow;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #4CAF50;
+}
+
+input[type="text"]::placeholder {
+    color: #aaa;
+}
+
+input[type="text"]:focus::placeholder {
+    color: red;
+}
+
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+a:active {
+    font-weight: bold;
+}
+body {
+background-image: url(07e3005b3d28351288778efd6e8aaece.gif);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+  .container {
+max-width: 800px;
+margin: 20px auto;
+padding: 20px;
+background-color: rgba(255,255,255,0.65);
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
